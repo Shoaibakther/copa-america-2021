@@ -121,6 +121,24 @@ body{
     
 }
 /* --------x------------top blogs end  -------------*/
+.team-logo img{
+    width: 100px;
+    height: 100px;
+}
+.team-list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.copa-team .heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(105, 187, 219);
+}
 
 
 /* ----------start-------- footer option  ------*/
@@ -149,7 +167,7 @@ body{
 
 /* ------------ For mobile device media queries ------------- */
 @media only screen and (max-width: 688px) {
-    .copa-america, .players, .blogs, .logo img{
+    .copa-america, .players, .blogs, .team-list, .logo img{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
