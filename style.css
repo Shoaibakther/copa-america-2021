@@ -34,7 +34,7 @@ body{
     padding: 10px 24px;
 }
 .photo img{
-    width: 556.01px;
+    width: 556px;
     height: 438px;
     margin-top: 170px;
     margin-right: 90px;
@@ -152,6 +152,9 @@ body{
     .copa-america, .players, .blogs, .logo img{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+        flex-direction: column;
     }
 }
 /* ---------------end media queries------------------ */
