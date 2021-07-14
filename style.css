@@ -1,10 +1,12 @@
+/* -------------Google fonts links ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* -----------body style  ---------*/
 body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-/* ----start----- Website header option styel  */
+/* ----start----- Website header option styel  ------------*/
 .copa-america{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -38,8 +40,9 @@ body{
     margin-right: 90px;
     margin-bottom: 60px;
 }
-/* end --------- website header option style  */
+/* end -------x---- website header option style  -----x------*/
 
+/* --------------x----player bio detail  --------x---*/
 .player-thumbnail img{
     width: 300px;
     height: 256px;
@@ -75,8 +78,52 @@ body{
 .player-detail{
     margin-left: 13px;
 }
+/* -----------x-----player bio end---------x------- */
 
-/* footer option  */
+/* ----------------top blogs start  --------------*/
+.top-blogs{
+    margin-left: 50px;
+}
+.section-title{
+    font-size: 24px;
+    color: #c040e7;
+    margin-top: 60px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#562EFF;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    width: 90%;
+    
+}
+/* --------x------------top blogs end  -------------*/
+
+
+/* ----------start-------- footer option  ------*/
 
 .logo img{
     width: 483.87px;
@@ -98,11 +145,13 @@ body{
     color: #969BAB;
     margin-top: 10px;
 }
+/*----------------x------ footer end -----------x- */
 
-/* media queries  */
+/* ------------ For mobile device media queries ------------- */
 @media only screen and (max-width: 688px) {
-    .copa-america, .players, .logo img{
+    .copa-america, .players, .blogs, .logo img{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
 }
+/* ---------------end media queries------------------ */
